@@ -1,11 +1,34 @@
+# SalaFácil - Agendamento de Salas Escolares
 
-  # Página inicial de agendamento
+Sistema moderno e eficiente para gestão e agendamento de espaços escolares como salas de informática, laboratórios de ciências, biblioteca e auditórios.
 
-  This is a code bundle for Página inicial de agendamento. The original project is available at https://www.figma.com/design/qE5btpnHpP71Msckh4I2xO/P%C3%A1gina-inicial-de-agendamento.
+## 🚀 Tecnologias Utilizadas
 
-  ## Running the code
+- **React 18** com TypeScript
+- **Vite 6**
+- **Tailwind CSS v4**
+- **Lucide Icons**
+- **Radix UI & Shadcn UI**
+- **Sonner** para Notificações
 
-  Run `npm i` to install the dependencies.
+## 🛠️ Como Executar
 
-  Run `npm run dev` to start the development server.
-  
+1. Instalar as dependências:
+   ```bash
+   npm install
+   ```
+
+2. Executar o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+3. Executar verificação de tipos:
+   ```bash
+   npm run typecheck
+   ```
+
+4. Gerar build de produção:
+   ```bash
+   npm run build
+   ```

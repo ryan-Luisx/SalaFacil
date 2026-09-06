@@ -1,6 +1,13 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --text-2xl: 1.5rem;
+  --text-xl: 1.25rem;
+  --text-lg: 1.125rem;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
   --font-size: 16px;
   --background: #F7F6FF;
   --foreground: #1E1B4B;
@@ -126,6 +133,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
   }
 
   /**
